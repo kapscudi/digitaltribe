@@ -1,0 +1,44 @@
+@import '../styles/Responsive.scss';
+
+.services-container {
+  color: white;
+  background-color: black;
+  padding: 5%;
+  > h1 {
+    margin-bottom: 8%;
+  }
+
+  @media screen and (min-width: $big) {
+    height: 100%;
+    padding: 5% 20%;
+  }
+  @media screen and (max-width: $small) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.serv-contain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4%;
+  row-gap: 2%;
+
+  @media screen and (min-width: $big) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (max-width: $small) {
+    grid-template-columns: 1fr;
+    padding: 0 3%;
+    padding-bottom: 130px;
+  }
+}
+.service-item {
+  align-self: start;
+  justify-self: center;
+  // text-align: justify;
+}
+
+.services-icons {
+  object-fit: contain;
+  width: 70px;
+}

@@ -1,0 +1,23 @@
+@import '../styles/Responsive.scss';
+.footer-container {
+  padding: 0 0 2% 0;
+  background-color: white;
+}
+.logo-footer {
+  object-fit: contain;
+  width: 100px;
+}
+.footer-socials {
+  > a > img {
+    object-fit: contain;
+    width: 30px;
+    margin: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.copyrights {
+  font-size: 0.8rem;
+  margin-top: 1%;
+}
