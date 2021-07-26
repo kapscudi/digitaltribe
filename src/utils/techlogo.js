@@ -30,7 +30,7 @@ export const addonExtention = './assets/icones/addon-extension.svg';
 export const uiux = './assets/icones/uiux.svg';
 
 // LOGOS
-export const logo = './assets/logos/logo.svg';
+export const logo = './assets/logos/logo.png';
 export const instagram = './assets/logos/instagram.svg';
 export const behance = './assets/logos/behance.svg';
 export const githubsocial = './assets/logos/githubsocial.svg';

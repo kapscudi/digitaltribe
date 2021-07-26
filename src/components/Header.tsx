@@ -1,4 +1,4 @@
-import logo from '../logo.svg';
+import { logo } from '../utils/techlogo';
 import './Header.css';
 // import '../styles/Responsive.css';
 
