@@ -1,6 +1,5 @@
-import { behance, githubsocial, instagram } from '../utils/techlogo';
+import { behance, githubsocial, instagram, logo } from '../utils/techlogo';
 import './Footer.css';
-import logo from '../logo.svg';
 
 const Footer = () => {
   const today = new Date();
